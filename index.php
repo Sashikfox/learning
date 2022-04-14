@@ -15,6 +15,10 @@
     <h1>branch test</h1>
     <h1>Test git</h1>
     <script src="js/script.js"></script>
+    <?php 
+    echo "fsfsdf";
+    ?>
+</body>
 </body>
 
 </html>
