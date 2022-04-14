@@ -16,3 +16,4 @@ const   a = prompt('какой последний фильм вы смотрел
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
+console.log(personalMovieDB);
