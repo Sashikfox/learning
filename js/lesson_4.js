@@ -47,7 +47,7 @@ for (let i = 0; i < 2; i++) {
     let a = prompt('Один из последних просмотренных фильмов?',''),
         b = +prompt('На сколько оцените его?','');
 
-    if (a.length < 50 && a != null && a != '' && isNaN(b)) {
+    if (a.length < 50 && a != null && a != '' && !isNaN(b)) {
     personalMovieDB.movies[a] = b;
     } else {
         i--;
