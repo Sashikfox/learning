@@ -23,21 +23,21 @@ const obj = {
     }
 };
 
-// console.log(obj);
+console.log(obj);
 
-// for (let key in obj) {
-//     if (typeof(obj[key]) === 'object') {
-//         for (let i in obj[key]) {
-//             console.log(`свойство ${i} равно ${obj[key][i]}`);
-//         }
-//     } else {
-//         console.log(`свойство ${key} равно ${obj[key]}`);
-//     }
-// }
+for (let key in obj) {
+    if (typeof(obj[key]) === 'object') {
+        for (let i in obj[key]) {
+            console.log(`свойство ${i} равно ${obj[key][i]}`);
+        }
+    } else {
+        console.log(`свойство ${key} равно ${obj[key]}`);
+    }
+}
 
 console.log(Object.keys(obj));
 
-// obj.getCode();
+obj.getCode();
 
-const {cat,color} = obj.pets;
-console.log(color);
+const {wife} = obj;
+console.log(wife);
