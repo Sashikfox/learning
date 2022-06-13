@@ -45,11 +45,12 @@ const personalMovieDB = {
         }
     },
     toggleVisibleMyDB: () => {
-        if(personalMovieDB.privat) {
-            personalMovieDB.privat = false;
-        } else {
-            personalMovieDB.privat = true;
-        }
+        // if(personalMovieDB.privat) {
+        //     personalMovieDB.privat = false;
+        // } else {
+        //     personalMovieDB.privat = true;
+        // }
+        personalMovieDB.privat = !personalMovieDB.privat;
 
     },
     writeYourGenres: () => {
